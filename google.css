@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(90deg, #dd9696 , bisque);
+    font-family: 'Athiti', sans-serif;
+}
+
+.main-data{
+    max-height: 100%;
+    padding: 80px 44px;
+    /* width: 100%; */
+    align-self: center;
+    justify-content: center;
+    margin-top: 170px;
+    font-size: 25px;
+    color: white;
+}
+
+.main-data h4{
+    font-family: 'Source Code Pro', monospacev;
+}
+
+.main-data a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    align-self: center;
+}
+
+a:hover{
+    background-color: rgba(240, 111, 72, 0.582);
+    color: rgb(255, 255, 255);
+    /* padding: 7px 12px; */
+    transform: translateY(5px);
+}

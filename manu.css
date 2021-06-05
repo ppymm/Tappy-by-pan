@@ -5,6 +5,46 @@ body{
     margin: 0%;
 }
 
+@media screen and (max-width: 425px) {
+    html, body {
+        width: 1000px;
+    }
+    .bar{
+        height: 300px;
+        width: 1000px;
+    }
+    h1.head1{
+        font-size: 50px;
+        text-align: end;
+    }
+    .mini-head{
+        width: 300px;
+        align-self: start;
+        justify-content: start;
+        margin-left: 700px !important;
+        margin-right: 30px;
+        text-align: start;
+    }
+    .dev-contact{
+        display: flex;
+
+    }
+    .main-head{
+        width: 1000px;
+    }
+    .main-email{
+        text-align: center;
+    }
+    .main-email > img {
+        margin: 0;  
+    }
+    .main-phone{
+        text-align: center;
+    }
+    .main-ig{
+        text-align: center;
+    }
+}
 /* menu-bar */
 .bar{
     display: flex;
@@ -17,14 +57,6 @@ body{
     width: 100%;
 }
 
-@media screen and (max-width: 425px) {
-.bar, .main-head{
-    background-position: center;
-    width: 418px;
-    }
-}
-
-
 .head1{
     color: white;
     font-size: 80px;
@@ -34,11 +66,6 @@ body{
     margin-right: 30px;
 }
 
-@media  screen and (max-width: 768px) {
-    .head1{
-        font-size: 60px;          
-    }
-}
 
 .mini-head{
     display: flex;
@@ -47,12 +74,6 @@ body{
     /* justify-content: center; */
     margin-top: -30px;
     margin-left: 750px;
-}
-
-@media screen and (max-width: 425px) {
-    .mini-head{
-        margin-left: 531px;
-    }
 }
 
 .menu{
@@ -79,11 +100,6 @@ body{
     display: flex;
 }
 
-@media screen and (max-width: 768px) {
-    .video-bar{
-        display: flex;
-    }
-}
 
 .video{
     width: 854px;
@@ -91,11 +107,6 @@ body{
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-    .video{
-        width: 1000px;
-    }
-}
 .fire-video{
     width: 100%;
     margin-top: 10px;
@@ -112,12 +123,6 @@ body{
     font-size: 25px;
 }
 
-@media screen and (max-width: 768px) {
-    .help{
-        margin-left: 230px;
-        margin-top: 30px;
-    }
-}
 
 .list-found{
     display: flex;
@@ -130,12 +135,6 @@ body{
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .list-found{
-        width: 800px;
-        margin: 100px;
-    }
-}
 
 .img-found{
     height: 350px;
@@ -209,12 +208,6 @@ body{
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .list-voluteer{
-        width: 800px;
-        margin: 100px;
-    }
-}
 
 .img-voluteer{
     height: 350px;
@@ -240,8 +233,8 @@ body{
 
 .big-content3{
     flex-direction: column;
-    align-items: center;
-    margin-left: 30px;
+    align-self: center;
+    margin-left: 130px;
     font-size: 18px;
 }
 
@@ -253,6 +246,9 @@ body{
     text-decoration: none;
     color: rgb(21, 30, 83);
     font-weight: 700;
+    border: 2px solid rgb(32, 39, 56);
+    border-radius: 8px;
+    padding: 5px 10px;
 }
 
 .list-donate{
@@ -266,12 +262,6 @@ body{
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .list-donate{
-        width: 800px;
-        margin: 100px;
-    }    
-}
 
 .img-donate{
     height: 350px;
@@ -290,6 +280,10 @@ body{
 /* contact */
 
 /* email */
+
+.container1{
+    width: 1000px;
+}
 
 .container2{
     display: flex;
